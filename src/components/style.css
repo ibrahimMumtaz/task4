@@ -1,0 +1,310 @@
+/*TopBar*/
+.topbar {
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    height: 40px;
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px 20px; 
+    flex-direction: row;
+    z-index: 10;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .topbarleft {
+    font-size: 20px;
+    color: black; 
+    text-decoration: none;
+    flex-direction: row;
+
+    
+  }
+
+  .topbar a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  
+  .topbarright {
+    background-color: #fff;
+    position:fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+  }
+  .topbarright a {
+    color: black; 
+    font-size: 20px;
+    text-decoration: none; 
+    padding: 10px 15px; 
+  }
+  
+  .topbarright :hover {
+    background-color: rgba(0, 0, 0, 0.2); 
+  }
+/*TopBar*/
+
+
+/*Header*/
+.HeaderClass{
+    max-width: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 800px;
+    
+}
+
+.HeaderImage{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.HeaderDiv{
+  position: absolute;
+  top: 50%; 
+  transform: translateY(-50%); 
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.HeaderH1 {
+    display: flex; 
+    align-items: center; 
+    font-size: 50px; 
+    margin: 10px 0;
+  }
+  
+  .HeaderBR {
+    font-weight: bold;
+    color: #ffffff; 
+    background-color: rgb(68, 67, 67);
+    width: 100%;
+    letter-spacing: 2px;
+  }
+  
+  
+  .HeaderArchitects {
+    font-weight: normal;
+    color: #ffffff; 
+    margin-left: 5px;
+  }
+  
+/*Header*/
+
+/* Project Section Styles */
+.project-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    max-width: 100%; 
+    padding-left: 20px; 
+    padding-right: 20px;
+  }
+  
+  .project-section-heading {
+    font-size: 24px; 
+    margin-bottom: 20px; 
+    text-align: left; 
+    padding-left: 10px;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Project Styles */
+  .project {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    margin: 10px; 
+    background-color: #f1f1f1;
+  }
+  
+  .project-image-container {
+    overflow: hidden;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+  }
+  
+  .project-title {
+    position:absolute;
+    padding: 10px;
+    text-align: left;
+    font-size: 18px;
+    margin: 0;
+    background-color: black;
+    color: #fff;
+  }
+  
+
+  /* Project Section Styles */
+
+
+.AboutContainer{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+  /* teamsection */
+  
+  .OurTeam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin: 30px 0;
+  }
+  
+  .OurteamCard {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    width: 280px; 
+    text-align: left; 
+    padding: 10px; 
+    
+  }
+  
+  .teamimage {
+    margin-bottom: 10px;
+  }
+  
+  .OurteamHeading {
+    font-size: 24px; 
+    margin-bottom: 20px;
+   
+  }
+
+  .OurteamTitle{
+    font-size: 16px; 
+    margin-bottom: 5px;
+    color: gray;
+  }
+  
+  .OurteamDescription {
+    font-size: 16px; 
+    margin-bottom: 5px; 
+  }
+  
+  .OurteamContact {
+    background-color: lightgray;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+  }
+  
+  .OurteamContact:hover { 
+    background-color: gray; 
+  }
+  
+   /* teamsection */
+
+   /* ContactForm */
+   .Contact {
+    display: flex; 
+    flex-direction: column;
+    align-items: left;  
+    padding: 30px; 
+  }
+  
+  .ContactHeading {
+    font-size: 24px; 
+    margin-bottom: 20px;
+    text-align: left; 
+  }
+  
+  .Contact p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  form {
+    display: flex; 
+    flex-direction: column;
+    width: auto;
+    padding-right: 30px;
+  }
+  
+  .FormName,
+  .FormEmail,
+  .FormSubject,
+  .FormComment {
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    width: 100%; 
+  }
+  
+  
+  .FormSubmit {
+    background-color: black; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-top: 10px;
+    width: 20%;
+  }
+  
+  .FormSubmit:hover { 
+    background-color: lightgray; 
+  }
+  
+   /* ContactForm */
+
+   /* Location Image */
+
+   .LocationContainer {
+    width: auto; 
+    height: 100%; 
+    padding: 30px;
+    padding-bottom: 5px;
+  }
+  
+  .MapImage {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+  /* Location Image */
+
+
+
+/*footer*/
+.footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    text-align: center;
+}
+
+.footersite{
+    margin-top: 40px;
+    display: inline-block;
+    color: rgb(255, 255, 255);
+}
+/*footer*/
+
+
+
+.divider {  
+    border: 1px solid #cccccc; 
+    margin-bottom: 20px;
+    width: 100%;
+    display:block; 
+  }
